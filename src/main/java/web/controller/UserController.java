@@ -9,8 +9,7 @@ import web.model.User;
 import web.service.UserService;
 
 
-@Controller
-@RequestMapping("/people")
+@Controller@RequestMapping("/people")
 public class UserController {
 
     private final UserService userService;
